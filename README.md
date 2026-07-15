@@ -51,18 +51,19 @@ Projeyi yerel bilgisayarınızda veya başka bir sunucuda çalıştırmak için 
 pip install tensorflow numpy pandas matplotlib seaborn ```'
 
 ---
-
-## Veri Yolu Yapısı
+# Veri Yolu Yapısı
 
 Kaggle çalışma ortamında kullanılan ve kodun doğrudan okuduğu dosya dizin yapısı şu şekildedir:
 
-'/kaggle/input/cats-and-dogs/
+'```text
+/kaggle/input/cats-and-dogs/
 ├── train/
 │   ├── cat/
 │   └── dog/
 └── val/
     ├── cat/
-    └── dog/'
+    └── dog/
+''' '
 ------
 
 ## Performans ve Karşılaştırma Sonuçları
