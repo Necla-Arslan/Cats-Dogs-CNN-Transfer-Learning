@@ -56,13 +56,13 @@ pip install tensorflow numpy pandas matplotlib seaborn ```'
 
 Kaggle çalışma ortamında kullanılan ve kodun doğrudan okuduğu dosya dizin yapısı şu şekildedir:
 
-''''/kaggle/input/cats-and-dogs/
+'/kaggle/input/cats-and-dogs/
 ├── train/
 │   ├── cat/
 │   └── dog/
 └── val/
     ├── cat/
-    └── dog/''''
+    └── dog/'
 ------
 
 ## Performans ve Karşılaştırma Sonuçları
@@ -78,10 +78,15 @@ Comparison of CNN Model Performance Scores Tablosu ve Comparison of CNN Models o
 Transfer öğrenme tabanlı modeller olan VGG16, ResNet50 ve EfficientNetB0, Base CNN modeline göre belirgin şekilde daha başarılı sonuçlar elde etmiştir. VGG16 ve ResNet50 modelleri aynı doğruluk oranına (%98.57) ulaşmasına rağmen, ResNet50 daha düşük loss değeri (0.0429) elde ederek VGG16'ya göre daha başarılı bir performans sergilemiştir.
 
 Tüm modeller arasında EfficientNetB0, %100 test doğruluğu ve 0.0325 ile en düşük test loss değerini elde ederek en başarılı model olmuştur. Bu nedenle, çalışmanın sonraki aşamalarında kullanılmak üzere nihai model olarak EfficientNetB0 seçilmiştir.
-------
-## Kaggle Link: "Bu projeyi Kaggle üzerinde incelemek ve upvote atmak isterseniz tıklayın" 
-https://www.kaggle.com/code/neclaersz/cats-dogs
------
+
+---
+
+##  Kaggle Proje Linki
+
+Bu projeyi Kaggle üzerinde incelemek ve desteklemek (upvote) isterseniz aşağıdaki bağlantıdan ulaşabilirsiniz:
+
+[Kaggle Notebook: Cats-Dogs-CNN-Transfer-Learning](https://www.kaggle.com/code/neclaersz/cats-dogs)
+
 ## Referanslar
 Veri setinin alındığı ve projenin temelini oluşturan orijinal Kaggle çalışması: Fatih Hattatoğlu - Cat & Dogs
 
