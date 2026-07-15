@@ -47,8 +47,8 @@ Projenin çalıştırılması ve modellerin eğitilmesi için gerekli temel küt
 
 Projeyi yerel bilgisayarınızda veya başka bir sunucuda çalıştırmak için gerekli kütüphaneleri yükleyebilirsiniz:
 
-```bash
-pip install tensorflow numpy pandas matplotlib seaborn
+'```bash
+pip install tensorflow numpy pandas matplotlib seaborn ```'
 
 ---
 
@@ -56,13 +56,13 @@ pip install tensorflow numpy pandas matplotlib seaborn
 
 Kaggle çalışma ortamında kullanılan ve kodun doğrudan okuduğu dosya dizin yapısı şu şekildedir:
 
-/kaggle/input/cats-and-dogs/
+''''/kaggle/input/cats-and-dogs/
 ├── train/
 │   ├── cat/
 │   └── dog/
 └── val/
     ├── cat/
-    └── dog/
+    └── dog/''''
 ------
 
 ## Performans ve Karşılaştırma Sonuçları
