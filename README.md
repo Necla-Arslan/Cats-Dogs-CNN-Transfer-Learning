@@ -43,19 +43,18 @@ Projenin çalıştırılması ve modellerin eğitilmesi için gerekli temel küt
 * **NumPy & Pandas:** Veri ön işleme, matris manipülasyonları ve sonuçların tablo haline getirilmesi.
 * **Matplotlib & Seaborn:** Modellerin eğitim/doğrulama grafiklerinin çizilmesi ve performans analizleri.
 
-### Yerel Ortamda Çalıştırma
+## Yerel Ortamda Çalıştırma
 
 Projeyi yerel bilgisayarınızda veya başka bir sunucuda çalıştırmak için gerekli kütüphaneleri yükleyebilirsiniz:
 
 '```bash
-pip install tensorflow numpy pandas matplotlib seaborn ```'
+pip install tensorflow numpy pandas matplotlib seaborn```'
 
 ---
 # Veri Yolu Yapısı
 
 Kaggle çalışma ortamında kullanılan ve kodun doğrudan okuduğu dosya dizin yapısı şu şekildedir:
 
-'```text
 /kaggle/input/cats-and-dogs/
 ├── train/
 │   ├── cat/
@@ -63,7 +62,6 @@ Kaggle çalışma ortamında kullanılan ve kodun doğrudan okuduğu dosya dizin
 └── val/
     ├── cat/
     └── dog/
-''' '
 ------
 
 ## Performans ve Karşılaştırma Sonuçları
